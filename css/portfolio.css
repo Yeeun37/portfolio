@@ -9,7 +9,7 @@ a {text-decoration:none;}
 
 /*내비게이션*/
 nav {position:fixed; width:100%; top:0;  padding:20pt 10pt 10pt 10pt; font-weight:bold; z-index:1; transition:0.3s;}
-nav.act {background:#d1cde8;}
+nav.act {background:#b5b0d1;}
 nav> div {max-width:1490px; margin:auto; display:flex;}
 nav p {flex:1; font-size:1.2rem; color:white; }
 nav a {margin-left:20pt; color:white; /*text-shadow:0 0 10px black;*/}
@@ -24,7 +24,7 @@ nav a:hover, a.active {color:#6b5e7d;}
 	from 	{transform:translateY(-10pt); opacity:1;}
 	to 		{transform:translateY(0); opacity:0;}
 }
-#top a {color:white;}
+#top a {color:#9986b3;}
 
 
 h2 {text-align:center; font-size:3rem; margin-bottom:60pt;}
@@ -95,11 +95,11 @@ h2 {text-align:center; font-size:3rem; margin-bottom:60pt;}
 #event div.ho img {transform:scale(1.1); cursor:pointer;}
 #event div.ho p {opacity:1;}
 
-#contact 	{color:white; padding-top:300px; background:#d1cde8; }
+#contact 	{color:white; padding-top:300px; background:#b5b0d1; }
 #contact b 	{display:block; font-size:1.1rem; font-weight:400; padding-top:20pt;}
-#contact div {max-width:600px; margin:auto; display:flex; padding-top:30pt;}
+#contact div {max-width:600px; margin:auto; display:flex; padding-top:20pt;}
 #contact section {flex:1; text-align:center;}
-#contact i, #contact a.fas {font-size:5rem; color:#b09ccc; padding-bottom:10pt;}
+#contact i, #contact a.fas {font-size:5rem; color:#e0dbef; padding-bottom:10pt;}
 #contact h3+a {color:white; }
 /*#contact h2 {text-shadow:0 0 10px #6b5e7d;}*/
 
@@ -154,6 +154,7 @@ h2 {text-align:center; font-size:3rem; margin-bottom:60pt;}
 @media (max-width:500px) {	
 	.area {padding-top:25vh;}
 	#popup img {max-width:100%; }
+	#contact 	{padding-top:25vh; }
 	
 }
 
