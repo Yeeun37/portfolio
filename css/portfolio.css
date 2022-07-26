@@ -151,8 +151,10 @@ h2 {text-align:center; font-size:3rem; margin-bottom:60pt;}
 	
 }
 /* 넓이 (0~375픽셀) */
-@media (max-width:375px) {	
+@media (max-width:500px) {	
 	.area {padding-top:25vh;}
+	#popup img {max-width:100%; }
+	
 }
 
 

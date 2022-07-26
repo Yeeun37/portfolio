@@ -1,4 +1,9 @@
 ﻿$(document).ready(function(){
+	
+	const about = $('#about').position().top;
+	console.log(about);
+	
+	
 	//이벤트 썸네일이미지 마우스오버
 	$("#event> div> div").hover(
 		function(){
@@ -58,7 +63,10 @@
 	//휴대폰에서는 상단 배경색 보임
 	if( $(window).width()<= 600 ){
 		$("nav").addClass("act");
-	} else{	//휴대폰 아닐때
+	} else{	
+	
+	
+//휴대폰 아닐때
 		//화면 스크롤시 상단 배경색 생김
 		$(window).scroll(function(){
 			if( $(window).scrollTop() > 100 ){
@@ -81,6 +89,27 @@
 			if( $(window).scrollTop()>3400 ){
 				$("#portfolio> section").eq(2).addClass("act");
 			}
+			
+							if( $(window).scrollTop() > 0){
+				$("nav a").removeClass("active");
+				$("nav a").eq(0).addClass("active").siblings().removeClass("active");
+				}
+				if( $(window).scrollTop() > 920){
+				$("nav a").removeClass("active");
+				$("nav a").eq(1).addClass("active").siblings().removeClass("active");
+				}
+				if( $(window).scrollTop() > 1840){
+					$("nav a").removeClass("active");
+					$("nav a").eq(2).addClass("active").siblings().removeClass("active");
+				}
+				if( $(window).scrollTop() > 4580){
+					$("nav a").removeClass("active");
+					$("nav a").eq(3).addClass("active").siblings().removeClass("active");
+				}
+				if( $(window).scrollTop() > 6000){
+					$("nav a").removeClass("active");
+					$("nav a").eq(4).addClass("active").siblings().removeClass("active");
+				}
 		});		
 	}
 	
