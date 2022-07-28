@@ -138,7 +138,7 @@ h2 {/*text-shadow:0 0 10px #6b5e7d;*/ font-family: 'Maven Pro', sans-serif; font
 	.area {/*border:1px solid red;*/ padding:100px 70px 0 70px; } 
 	#about {padding-bottom:50pt;}
 	#typing_animation {font-size:5rem;}
-	#about img {width:30%; }
+	#about img {max-width:250pt; width:40%; }
 }
 
 @media (max-width:900px) {
@@ -147,6 +147,7 @@ h2 {/*text-shadow:0 0 10px #6b5e7d;*/ font-family: 'Maven Pro', sans-serif; font
 	.area {/*border:1px solid red;*/ padding:100px 20px 0 20px; } 
 	#top {background-size:auto 100vh;}
 	#typing_animation {font-size:4rem;}	
+	#about img {width:40%; }
 	
 	
 	/***********/
