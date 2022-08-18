@@ -75,6 +75,9 @@
 			if( $(window).scrollTop()>3400 ){
 				$("#portfolio> section").eq(2).addClass("act");
 			}
+			if( $(window).scrollTop()>4300 ){
+				$("#portfolio> section").eq(3).addClass("act");
+			}
 			
 							if( $(window).scrollTop() > 0){
 				$("nav a").removeClass("active");

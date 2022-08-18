@@ -51,35 +51,23 @@ h2 {text-align:center; font-size:3rem; margin-bottom:60pt;}
 /*Portfolio*/
 #portfolio {max-width:1000pt;margin:auto; overflow:hidden;}
 #portfolio> section {display:flex;}
-#seoul; {padding:10vh 0 18vh 0; }
+#leeum {padding:10vh 0 18vh 0; }
 
-#portfolio> section:nth-of-type(1) 		{transform:translateY(100px); opacity:0; transition:1s;}
-#portfolio> section:nth-of-type(1).act	{transform:translateY(0); opacity:1;}
+#portfolio> section 		{transform:translateY(100px); opacity:0; transition:1s;}
+#portfolio> section.act	{transform:translateY(0); opacity:1;}
 
-#portfolio> section:nth-of-type(2)> div:first-child {transform:translateX(-450pt);transition:3s;}
-#portfolio> section:nth-of-type(2)> div:last-child	{transform:translateX(600pt); transition:3s;}
 
-#portfolio> section:nth-of-type(2).act> div:first-child {transform:translateX(0);}
-#portfolio> section:nth-of-type(2).act> div:last-child	{transform:translateX(0);}
-
-#portfolio> section:nth-of-type(3)> div:first-child {transform:scale(0.5); opacity:0; transition:3s;}
-#portfolio> section:nth-of-type(3)> div:last-child	{transform:scale(0.5); opacity:0; transition:3s;}
-
-#portfolio> section:nth-of-type(3).act> div:first-child {transform:scale(1); opacity:1;}
-#portfolio> section:nth-of-type(3).act> div:last-child	{transform:scale(1); opacity:1;}
-
-#portfolio> section:not(#seoul) {min-height:100vh;padding-top:28vh;  }
+#portfolio> section:not(#leeum) {min-height:100vh;padding-top:27vh;  }
 #portfolio  div {line-height:270%;}
 #portfolio h3 {font-size:2.3rem; padding-bottom:20pt;}
 #portfolio div:first-child {padding-right:30pt;}
 #portfolio ul {list-style:none; margin-bottom:25pt;}
 #portfolio li {display:flex;}
 #portfolio b  {min-width:60pt;}
-#portfolio span {line-height:180%; text-align:justify;}
+#portfolio span {line-height:180%; text-align:justify; padding-top:7px;}
 #portfolio a   {padding:6pt 30pt; border-radius:20pt; border:1pt solid #ddd; color:black; font-size:1.rem; font-weight:500; transition:0.3s;}
-#portfolio a:first-of-type {margin-right:10pt;}
+#portfolio a{margin-right:5pt;}
 #portfolio a:hover {background:#555; color:white;}
-
 
 /*Event and Detail*/
 #event {max-width:900pt; margin:auto; margin-bottom:100px; }
@@ -168,7 +156,7 @@ h2 {/*text-shadow:0 0 10px #6b5e7d;*/ font-family: 'Maven Pro', sans-serif; font
 	#portfolio  h3   {font-size:1.8rem;}
 	#portfolio  img  {margin-bottom:30pt;}
 	
-	#seoul, #tae {flex-direction:column-reverse;}
+	#leeum, #tae {flex-direction:column-reverse;}
 	#burts {flex-direction:column;}
 	
 	#portfolio div:first-child {padding-right:0pt;}
