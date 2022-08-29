@@ -69,13 +69,13 @@
 			if( $(window).scrollTop()>1600 ){
 				$("#portfolio> section").eq(0).addClass("act");
 			}
-			if( $(window).scrollTop()>2500 ){
+			if( $(window).scrollTop()>2400 ){
 				$("#portfolio> section").eq(1).addClass("act");
 			}
-			if( $(window).scrollTop()>3400 ){
+			if( $(window).scrollTop()>3200 ){
 				$("#portfolio> section").eq(2).addClass("act");
 			}
-			if( $(window).scrollTop()>4300 ){
+			if( $(window).scrollTop()>4000 ){
 				$("#portfolio> section").eq(3).addClass("act");
 			}
 			
@@ -148,12 +148,3 @@
 	
 	
 });//끝
-
-
-
-
-
-
-
-
-
