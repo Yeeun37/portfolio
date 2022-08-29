@@ -68,7 +68,7 @@ h2 {text-align:center; font-size:3rem; margin-bottom:60pt;}
 #portfolio a   {padding:6pt 30pt; border-radius:20pt; border:1pt solid #ddd; color:black; font-size:1.rem; font-weight:500; transition:0.3s;}
 #portfolio a{margin-right:5pt;}
 #portfolio a:hover {background:#555; color:white;}
-#tae img {width:94%; }
+#tae img {width:94%; right 20px;}
 
 /*Event and Detail*/
 #event {max-width:900pt; margin:auto; margin-bottom:100px; }
